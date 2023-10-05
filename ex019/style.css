@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/*Usamos # para id 
+E . para class*/
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: white;
+    width: 1430px;
+    box-shadow: 3px 3px 2px;
+    border-radius: 20px;
+    padding: 0,5px;
+    margin: auto;
+}
+h1 {
+    color: rgb(23, 143, 103);
+
+}
+#principal{
+    text-align: center;  
+}
+.titulo{
+    font-style: italic;
+    font-weight: bold;
+    color: cadetblue;
+}
+.subtitulo{
+    color: green;
+    font-weight: bold;
+    font-style: oblique;
+}

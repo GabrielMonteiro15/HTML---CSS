@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: gray;
+            box-shadow: 5px 3px 7px 1px  rgba(0, 0, 0, 0.233);
+            
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            color: black;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.329);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 10px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        article{
+            font-style: italic;
+        }
+        #noticias{
+            background-color: rgb(139, 139, 139);
+        }
+        #bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+            text-align: calc(50px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos"></section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptates itaque ipsa enim. Eum beatae delectus, eos sit ullam dolorem nesciunt harum? Perferendis provident ipsam velit ex aspernatur earum mollitia!</p>
+                <aside>
+                    <p>Erick jacudo</p>
+                </aside>
+
+            </article>
+        </section>
+            
+
+    </main>
+    
+    <footer>
+        <p>Desenvolvido por Gabriel</p>
+
+    </footer>
+    <div id="bola">bola</div>
+    
+</body>
+</html>

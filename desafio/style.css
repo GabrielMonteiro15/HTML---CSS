@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+.centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+
+}
