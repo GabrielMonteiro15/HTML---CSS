@@ -63,9 +63,9 @@ div.video{
     padding: 20px;
     padding-bottom: 59%;
     position: relative;
-    background-color: rgb(117, 117, 117);
+    background-color: rgb(153, 153, 153);
 }
-div.video > iframe{
+div.video > video{
     position: absolute;
     top: 5%;
     left: 5%;

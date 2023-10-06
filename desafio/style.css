@@ -1,10 +1,10 @@
 body{
     background-color: black;
 }
-.centralizar{
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-
+div.video{
+    margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 
 }
