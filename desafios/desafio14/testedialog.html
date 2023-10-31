@@ -9,11 +9,33 @@
             background-color: rgb(0 0 0 / .5);
         }
         dialog{
+           
+            background-image: url(neo-quimica-arena.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
             border: none;
             border-radius: .5rem;
             box-shadow: 0 0 1em rgb(0 0 0 / .3);
             width: 80%;
+            height: 200px;
+           
         }
+        #fundo{
+            
+            height: 300px;
+            background-image: url(neo-quimica-arena.jpg);
+            background-position: center, center;
+            background-attachment: fixed;
+            background-size: cover;
+         
+        }
+        #fundo > p , #fundo > h1{
+            background-color: rgba(128, 128, 128, 0.486);
+            color: white;
+            width: 300px;
+        }
+     
     </style>
 </head>
 <body>
@@ -23,6 +45,14 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsum dolor asperiores? Molestiae omnis dicta totam fugit quisquam earum tenetur atque, quam velit. Nostrum, quia magni voluptatum voluptate dolorem repudiandae!</p>
         <button>Ok</button>
     </dialog>
+    <div id="fundo">
+        <h1>Titulo Foda</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore nisi nemo, culpa similique ex, natus ab, fugit deserunt repellat adipisci cupiditate maxime quaerat tenetur iste incidunt dolor debitis? Assumenda?
+        
+        </p>
+        
+    </div>
+    
     <script>
         const botao = document.querySelector("button")
         const modal = document.querySelector("dialog")
